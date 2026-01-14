@@ -45,6 +45,12 @@
             <artifactId>logback-classic</artifactId>
             <version>1.5.6</version>
         </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.10.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -71,6 +77,31 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-javadoc-plugin</artifactId>
+    <version>3.6.3</version>
+    <configuration>
+        <sourceSourceCodeMode>true</sourceSourceCodeMode>
+        <detectLinks>true</detectLinks>
+        <show>private</show> <subpackages>com.scapes</subpackages>
+        
+        <sourcepath>src/main/java;src/test/java</sourcepath>
+        
+        <includeTestCommands>true</includeTestCommands>
+        <additionalOptions>-Xdoclint:none</additionalOptions>
+        <failOnError>false</failOnError>
+    </configuration>
+    <executions>
+        <execution>
+            <id>attach-javadocs</id>
+            <goals>
+                <goal>javadoc</goal>
+                <goal>test-javadoc</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
         </plugins>
     </build>
 </project>
