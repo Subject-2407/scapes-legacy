@@ -1,16 +1,2 @@
-com\scapes\impl\UnsplashProvider.class
-com\scapes\controller\MainController$2.class
-com\scapes\impl\SuggestionService.class
 com\scapes\impl\SuggestionService$2.class
-com\scapes\impl\WindowsSystemHandler.class
-module-info.class
-com\scapes\core\ProviderManager.class
-com\scapes\model\WallpaperImage.class
-com\scapes\core\SystemHandler.class
 com\scapes\impl\SuggestionService$1.class
-com\scapes\controller\MainController$3.class
-com\scapes\impl\PexelsProvider.class
-com\scapes\controller\MainController$1.class
-com\scapes\impl\WindowsSystemHandler$User32.class
-com\scapes\controller\MainController.class
-com\scapes\core\WallpaperProvider.class
