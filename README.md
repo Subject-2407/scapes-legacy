@@ -6,7 +6,6 @@
   <img src="thumbnails/1.png" alt="Scapes Landing Page" width="700"/>
 </p>
 
-<h1 align="center">Scapes</h1>
 <p align="center">
 A desktop wallpaper browser.
 </p>
