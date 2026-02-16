@@ -44,6 +44,17 @@ A desktop wallpaper browser.
 
 ---
 
+## 🌐 Sources
+
+Scapes currently retrieves wallpapers from:
+
+- **Unsplash** – https://unsplash.com  
+- **Pexels** – https://pexels.com  
+
+All wallpapers are sourced directly from the official APIs of these platforms.
+
+---
+
 ## Contributors
 
 - **Subject-2407**
