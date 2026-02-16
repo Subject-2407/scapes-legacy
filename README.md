@@ -23,7 +23,7 @@ A desktop wallpaper browser.
 
 ## Main Features
 
-### Main Page
+### Explore Categories
 <p align="center">
   <img src="thumbnails/2.png" width="700"/>
 </p>
@@ -46,11 +46,15 @@ A desktop wallpaper browser.
 
 ## Contributors
 
-- **Bintang Stevan**
-- **Farrel Rozzaq**
-- **Ariwata Alfajri**
+- **Subject-2407**
+- **Kuroameee**
+- **WaphTalfa**
 
 ---
+
+<p align="center">
+Stack used:
+</p>
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" height="40" alt="Java"/>
